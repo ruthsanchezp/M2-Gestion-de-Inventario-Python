@@ -1,3 +1,5 @@
+##Inventario en Python Excel
+
 La tienda de venta de artículos de regalo “gifty”, lleva su control de inventario a través de hojas
 de Excel, registrando las entradas de artículos y salidas de cada uno cada vez que se vende un
 artículo. Se debe esarrollar un sistema sencillo de gestión de inventario. El sistema permitirá a los usuarios administrar el
