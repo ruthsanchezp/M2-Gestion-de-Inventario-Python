@@ -100,7 +100,7 @@ def menu():
     print("8. Más vendidos")
     print("9. Salir")
 
-def alertar_stock_bajo(): #Alerta de stock bajo 5 unidades de cualquier producto en el inventario (agregado por Diego 19/03)
+def alertar_stock_bajo(): 
     productos_stock_bajo = [f"{datos['productos']} solo quedan {datos['Cantidad']} en stock" for codigo, datos in inventario.items() if datos['Cantidad'] < 5]
     if productos_stock_bajo:
         print("\033[91m" + f"¡ALERTA! Los siguientes productos tienen un stock bajo:\n{', '.join(productos_stock_bajo)}" + "\033[0m")
